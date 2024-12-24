@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title> Proyecto 1</title>
-    <meta name="description" content="Proyecto1" />
+    <title>Proyecto 2</title>
+    <meta name="description" content="Case study page of Project" />
 
     <link rel="stylesheet" href="style.css" />
 
@@ -13,7 +13,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
-            rel="stylesheet"/>
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header class="header">
@@ -21,54 +22,44 @@
         <div class="header__logo-container">
           <span class="header__logo-sub">Bienvenido a mi portfolio</span>
         </div>
+
         <div class="header__main">
           <ul class="header__links">
             <li class="header__link-wrapper">
-              <a href="./index.html" class="header__link"> Inicio </a>
+              <a href="index.html" class="header__link"> Inicio </a>
             </li>
             <li class="header__link-wrapper">
-              <a href="./index.html#about" class="header__link">Sobre mí </a>
+              <a href="index.html#about" class="header__link">Sobre mí </a>
             </li>
             <li class="header__link-wrapper">
-              <a href="./index.html#projects" class="header__link">
+              <a href="index.html#projects" class="header__link">
                 Proyectos
               </a>
             </li>
             <li class="header__link-wrapper">
-              <a href="./index.html#contact" class="header__link"> Contacto </a>
+              <a href="index.html#contact" class="header__link"> Contacto </a>
             </li>
           </ul>
-          <div class="header__main-ham-menu-cont">
-            <img
-              src="./assets/svg/ham-menu.svg"
-              alt="hamburger menu"
-              class="header__main-ham-menu"
-            />
-            <img
-              src="./assets/svg/ham-menu-close.svg"
-              alt="hamburger menu close"
-              class="header__main-ham-menu-close d-none"
-            />
-          </div>
+          
         </div>
       </div>
       <div class="header__sm-menu">
         <div class="header__sm-menu-content">
           <ul class="header__sm-menu-links">
             <li class="header__sm-menu-link">
-              <a href="./index.html"> Inicio </a>
+              <a href="index.html"> Inicio </a>
             </li>
 
             <li class="header__sm-menu-link">
-              <a href="./index.html#about"> Sobre mí </a>
+              <a href="index.html#about"> Sobre mí </a>
             </li>
 
             <li class="header__sm-menu-link">
-              <a href="./index.html#projects"> Proyectos </a>
+              <a href="index.html#projects"> Proyectos </a>
             </li>
 
             <li class="header__sm-menu-link">
-              <a href="./index.html#contact"> Contacto </a>
+              <a href="index.html#contact"> Contacto </a>
             </li>
           </ul>
         </div>
@@ -76,14 +67,14 @@
     </header>
     <section class="project-cs-hero">
       <div class="project-cs-hero__content">
-        <h1 class="heading-primary">Proyecto E-commerce (DEMO)</h1>
+        <h1 class="heading-primary">Aplicación Móvil</h1>
         <div class="project-cs-hero__info">
           <p class="text-primary">
-            Aplicación web de e-commerce desarrollada con Java y Spring Boot en el backend, MySQL como base de datos, y tecnologías de frontend como HTML, CSS, JavaScript, Thymeleaf y Bootstrap.
+            En este proyecto desarrollé una aplicación móvil diseñada para proporcionar información meteorológica precisa y en tiempo real. Desarrollada con Flutter y el lenguaje Dart, esta aplicación aprovecha la API de OpenWeatherMap para ofrecer datos detallados sobre el clima en cualquier ubicación del mundo.
           </p>
         </div>
         <div class="project-cs-hero__cta">
-          <a href="https://github.com/gitFrancoln/Tienda/tree/master/demo/demo/src/main/java/com/example/demo" class="btn btn--bg" target="_blank">Ver Proyecto</a>
+          <a href="https://github.com/gitFrancoln/app-movil-" class="btn btn--bg" target="_blank">Ver Proyecto</a>
         </div>
       </div>
     </section>
@@ -92,7 +83,7 @@
         <div class="project-details__content">
           <div class="project-details__showcase-img-cont">
             <img
-              src="/franco-main/assets/jpeg/pantalla.png"
+              src="clima.jpg"
               alt="Project Image"
               class="project-details__showcase-img"
             />
@@ -101,33 +92,25 @@
             <div class="project-details__desc">
               <h3 class="project-details__content-title">Descripción detallada del proyecto</h3>
               <p class="project-details__desc-para">
-                 La plataforma permite a los usuarios registrarse, iniciar sesión y gestionar su cuenta, mientras que los administradores pueden crear, editar y listar productos con detalles como tallas, stock, precio y descripción. Los usuarios pueden añadir productos al carrito de compras, visualizar los detalles, y completar un formulario de envío antes de realizar el pago a través de la integración con Mercado Pago usando el checkout Bricks. El diseño es completamente responsive gracias a Bootstrap, ofreciendo una experiencia fluida en cualquier dispositivo. Git se utilizó para el control de versiones y gestión del código fuente. La aplicación está pensada para ser intuitiva, con un enfoque en la gestión eficiente de productos y compras, todo dentro de una arquitectura robusta y escalable.
-              </p>
-              <p class="project-details__desc-para">
-                Aunque la aplicación actualmente no utiliza microservicios, está diseñada con una arquitectura escalable y con la visión de ser mejorada en el futuro, permitiendo su evolución hacia una solución más robusta y distribuida.
+                La aplicación permite consultar las condiciones climáticas actuales, incluyendo temperatura, sensación térmica, humedad, velocidad del viento y especificaciones sobre el cielo. Además, utiliza el GPS del dispositivo para obtener datos basados en la ubicación actual. También incluye un pronóstico extendido para los próximos días, lo que la hace ideal para planificar actividades con anticipación. Es visualmente moderno y atractivo gracias a utilizar Dart y Flutter. En este proyecto también utilizó la API de OpenWeatherMap para la obtención de datos meteorológicos.
               </p>
             </div>
             <div class="project-details__tools-used">
               <h3 class="project-details__content-title">Herramientas utilizadas:</h3>
               <div class="skills">
-                <div class="skills__skill">HTML</div>
-                <div class="skills__skill">CSS</div>
-                <div class="skills__skill">JavaScript</div>
-                <div class="skills__skill">Boostrap</div>
-                <div class="skills__skill">GIT</div>
-                <div class="skills__skill">Java</div>
-                <div class="skills__skill">Spring Boot</div>
-                <div class="skills__skill">Thymeleaf</div>
-                <div class="skills__skill">MySql</div>
+                <div class="skills__skill">Dart</div>
+                <div class="skills__skill">Flutter</div>
+                <div class="skills__skill">OpenWeatherMap</div>
+                <div class="skills__skill">Integración con GPS</div>
               </div>
             </div>
             <div class="project-details__links">
               <h3 class="project-details__content-title">Ver</h3>
               <a
-                href="https://github.com/gitFrancoln/Tienda/tree/master/demo/demo/src/main/java/com/example/demo"
+                href="https://github.com/gitFrancoln/app-movil-"
                 class="btn btn--med btn--theme-inv project-details__links-btn"
                 target="_blank"
-                >Proyecto en Github</a
+                >PROYECTO EN GITHUB</a
               >
             </div>
           </div>
@@ -145,14 +128,14 @@
               <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/franco-nuñez-4460272b4/">
                 <img
                   class="main-footer__icon"
-                  src="./assets/png/linkedin-ico.png"
+                  src="linkedin-ico.png"
                   alt="icon"
                 />
               </a>
               <a target="_blank" rel="noreferrer" href="https://github.com/gitFrancoln/Tienda/tree/master/demo/demo/src/main/java/com/example/demo">
                 <img
                   class="main-footer__icon"
-                  src="./assets/png/github-ico.png"
+                  src="github-ico.png"
                   alt="icon"
                 />
               </a>
@@ -166,6 +149,6 @@
         </div>
       </div>
     </footer>
-    <script src="./index.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
