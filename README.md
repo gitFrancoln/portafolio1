@@ -30,7 +30,7 @@ El portafolio está desarrollado utilizando tecnologías estándar de la web, co
 
 Este portafolio se compone de varias secciones clave que proporcionan toda la información sobre mi trabajo y habilidades:
 
-1. **Inicio:** Una vista presentación general.
+1. **Inicio:** Una presentación general.
 2. **Sobre mí:** Una descripción más detallada de mi trayectoria profesional y mis habilidades.
 3. **Proyectos:** Una sección donde podés explorar mis proyectos y ver ejemplos de mi trabajo.
 4. **Contacto:** Información sobre cómo podés ponerte en contacto conmigo.
