@@ -56,7 +56,7 @@ Si deseas trabajar conmigo o tienes alguna consulta, no dudes en contactarme a t
 
 ## 📄 **Licencia**
 
-Este proyecto está licenciado bajo la **Licencia MIT**. Puedes consultar más detalles en el archivo [LICENSE](LICENSE).
+Este proyecto está licenciado bajo la **Licencia MIT**.
 
 ---
 
